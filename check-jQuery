@@ -1,0 +1,6 @@
+Вставить в консоль код:  
+javascript:(function(){
+var message;
+if (window.jQuery) {message = 'Здесь используется jQuery версия: ' + jQuery.fn.jquery;} else
+{message = 'jQuery не используется!';}
+alert(message);})();;
